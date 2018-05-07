@@ -13,6 +13,11 @@ public class TestBubble {
     }
 
     private static void myBubbleSort(int[] arrs){
+
+        System.out.println("hello1");
+        System.out.println("hello2");
+        System.out.println("hello3");
+        System.out.println("hello4");
         //外层控制冒泡索引 4--3--2--1
         for (int i = arrs.length-1;i>0;i--) {
             for (int j = 0; j<i;j++) {
